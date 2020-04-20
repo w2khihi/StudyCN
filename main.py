@@ -137,7 +137,7 @@ if __name__ == '__main__':
             break
         
         else:
-            if key in ['a','b','c','d','e']:
+            if key in ['a','b','c','d','e','f']:
                 answer = "【"+key.upper()+"】"
                 write_tq(question+answer)
             continue
