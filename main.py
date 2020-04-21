@@ -10,9 +10,9 @@ warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
 # import gensim
 from gensim import corpora, models, similarities
 """ 你的 APPID AK SK """
-APP_ID = '15869494'
-API_KEY = 'PAwPQfw7BLll8CBMPE0WTzuK'
-SECRET_KEY = 'WgnyZgoANRGldCPFROrnr8eDyBU1Qz4n'
+APP_ID = '自己申请BaiduAPI'
+API_KEY = '自己申请BaiduAPI'
+SECRET_KEY = '自己申请BaiduAPI'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 # 加载题库
 def load_tq():
